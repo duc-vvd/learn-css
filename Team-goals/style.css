@@ -1,0 +1,70 @@
+
+.component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e1f3e8;
+    width: 700px;
+    border-radius: 46px;
+    padding: 18px 50px;
+}
+.background-icon {
+    padding: 24px;
+    background-color: #00c57a;
+    border-radius: 29px;
+    color: white;
+}
+.icon {
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    color: #00c57a;
+}
+.row {
+    border-bottom: 1px solid #cde3d6;
+    display: flex;
+    align-items: center;
+    height: 136px;
+}
+.row-3 {
+    border: none;
+}
+.text-wrap {
+    padding: 0 20px;
+    font-size: 24px;
+    color:#005100e6;
+    flex: 1;
+}
+.title {
+    font-size: 36px;
+    color: #012002a6;
+    margin-bottom: 10px;
+}
+.text-time {
+    font-size: 20px;
+    color: #9db19d;
+}
+.list-item {
+    width: 126px;
+    display: flex;
+    padding: 0;
+}
+.list-item li {
+    list-style-type: none;
+    background-image: url("https://picsum.photos/36/36");
+    width: 36px;
+    height: 36px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+.item-li {
+    background-image: none !important;
+    background-color: #46525d !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
