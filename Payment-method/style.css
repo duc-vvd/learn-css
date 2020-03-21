@@ -1,0 +1,91 @@
+.main {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(245, 249, 255);
+}
+.payment-form {
+    background-color: rgb(255, 255, 255
+    );
+    margin: 28px;
+    border: 1px solid rgb(234, 235, 237);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;
+    border-bottom: 2px solid rgb(234, 235, 237);
+    border: 1px solid rgb(234, 235, 237);
+    padding: 22px 36px;
+    color: rgb(80, 94, 106);
+}
+.text-header {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content {
+    padding: 22px 36px;
+}
+.row {
+    margin-bottom: 24px;
+}
+.text {
+    color: rgb(53, 67, 78);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid rgb(169, 218, 255);
+    box-sizing: border-box;
+}
+.row-2 {
+    display: flex;
+}
+.col-1 {
+    flex: 2;
+    margin-right: 12px;
+}
+.col-2 {
+    flex: 1;
+    margin-right: 12px;
+}
+.col-3 {
+    flex: 1;
+}
+.row-3 {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    color: rgb(86, 166, 225);
+}
+.alert-text {
+    color: rgb(91, 91, 91);
+    font-size: 22px;
+    padding-left: 12px;
+}
+.logo-list {
+    display: flex;
+    margin-bottom: 24px;
+}
+.logo {
+    width: 110px;
+    height: 64px;
+    border: 2px solid rgb(169, 218, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.logo-visa img {
+    height: 30%;
+}
+.logo-mastercard img {
+    height: 54%;
+}
